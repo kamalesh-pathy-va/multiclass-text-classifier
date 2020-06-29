@@ -1,5 +1,5 @@
 """
-This is an example project.
+This is an example project on how to use the module 'mainClassifier', this has nothing to do with the actual code.
 """
 
 import mainClassifier
