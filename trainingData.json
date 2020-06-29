@@ -1,0 +1,90 @@
+{
+	"intends":[
+
+		{
+			"tag": "greatings",
+			"patterns": ["hi", "hello", "any one there", "hi buddy", "buddy", "hey buddy", "hey", "hello buddy are you there", "hey buddy are you listining", "can you do me a favour", "buddy i think i might need your help", "can i talk now"],
+			"response": ["hello sir!", "yeah tell me, i'm listening sir", "anything for you sir", "yes sir"]
+		},
+		{
+			"tag": "bye",
+			"patterns": ["bye", "good bye", "see you soon", "bye buddy", "see you later buddy", "i'm leaving now buddy", "see you later", "i'm leaving now", "take rest", "take rest buddy", "rest buddy"],
+			"response": ["bye sir!", "see you soon sir", "ok sir i'll take some rest"]
+		},
+		{
+			"tag": "shutdown",
+			"patterns": ["shutdown buddy", "shutdown", "turn off", "shutdown the pc", "shut the pc down", "turn the pc off", "turn off the computer", "buddy turn the pc off", "buddy shut the pc down", "buddy turn the pc off", "turn off the computer buddy"],
+			"response": ["yes sir i'm shutting down your pc", "your computer is shutting down"]
+		},
+		{
+			"tag": "notepad",
+			"patterns": ["hey buddy open the notepad", "open the notepad", "open notepad", "let me write some thing on notepad", "hey buddy open notepad", "can you please open the notepad", "hey buddy can you please open the notepad for me", "hey buddy please open the note pad", "can you pease open the note pad", "let me write something in the note pad"],
+			"response": ["yes sir i'll open the notepad", "for you anything sir, notepad has opened"]
+		},
+		{
+			"tag": "chrome",
+			"patterns": ["hey buddy open the chrome", "open the chrome", "open chrome", "let me search some thing on google", "hey buddy open chrome", "can you please open the chrome", "hey buddy can you please open the chrome for me", "hey buddy open the google chrome", "open the google chrome", "open google chrome", "let me search some thing using chrome", "hey buddy open google chrome", "can you please open the google chrome", "hey buddy can you please open the google chrome for me", "turn on the googel", "hey buddy let me search something", "let me search buddy", "let me search something on the internet", "let me search the internet", "let me use the internet", "let me search the web"],
+			"response": ["yes sir i'll open the chrome", "for you anything sir, google chrome has opened"]
+		},
+		{
+			"tag": "pep",
+			"patterns": ["how are you buddy", "how are you", "how are you doing", "are you doing good", "i'm fine", "i think i might be doing good", "good boy"],
+			"response": ["i'm fine and i'm doing good sir", "i'm fine sir, hope you are also", "happy to here from you sir"]
+		},
+		{
+			"tag": "personal-physical-work",
+			"patterns": ["complete my homework and assignment buddy", "hey do my assignment", "buddy do my homework for me", "can you please do my homework and record work for me", "hey buddy take care of my things for me"],
+			"response": ["but sir, it's your fate", "sir you have to deal with your own karma"]
+		},
+		{
+			"tag": "current-work",
+			"patterns": ["what are you doing", "are you free", "are you busy", "what is going on in the background buddy", "is this a great time to talk", "is this a correct time to chat"],
+			"response": ["i'm doing nothing", "free sir, all time at your service", "a few work, sir"]
+		},
+		{
+			"tag": "time",
+			"patterns": ["what is the time now", "what is the time now buddy", "hey whats the time", "time buddy", "tell me the time buddy", "buddy whats the time", "time"],
+			"response": ["sir the time is ", "it is "]
+		},
+		{
+			"tag": "period",
+			"patterns": ["good morning buddy", "good evening buddy", "good night buddy", "is this morning", "good morning", "morning buddy", "good evening", "evening buddy", "good night", "night buddy", "is this mid night", "is this night", "is this evening", "good afternoon buddy", "good afternoon", "is this afternoon"],
+			"response": ["good morning sir", "good evening sir", "good night sir", "good afternoon sir", " sir this is morning", " sir this is evening", " sir this is afternoon", " sir this is mid night", " sir this is night"]
+		},
+		{
+			"tag": "date",
+			"patterns": ["hey buddy what is todays date", "what is the date today", "date", "todays date buddy", "tell me the date", "tell me todays date"],
+			"response": ["Sir todays date is {0}", "Sir it is {0} today"]
+		},
+		{
+			"tag": "network-connection",
+			"patterns": ["hey buddy check for the internet connection", "check if we are connected to the network", "are we blind", "are we connected to the internet", "check for the network", "check if we are offline", "are we offline", "are we online", "online or not"],
+			"response": ["Sir we are connected to the network", "Sir we are offline"]
+		},
+		{
+			"tag": "month",
+			"patterns": ["what month is this", "hey buddy, what month is this", "tell me the month", "month buddy", "what is this month", "whats the month buddy"],
+			"response": ["Sir this is {0}", "We are in {0} sir"]
+		},
+		{
+			"tag": "year",
+			"patterns": ["hey buddy which year are we in", "what year is this", "tell me the year", "year buddy"],
+			"response": ["Sir this is {0}", "We are in {0} sir", "We are in the year {0}"]
+		},
+		{
+			"tag": "day",
+			"patterns": ["hey buddy what is the day", "tell me what day is this", "what day is this", "day buddy"],
+			"response": ["Sir today is {0} of {1}", "Today is {0}"]
+		},
+		{
+			"tag": "music-play",
+			"patterns": ["hey buddy play some music", "play some music", "play any music", "play something", "play something to here", "play a song", "play some song", "the song", "music", "song", "can you play something"],
+			"response": ["Yes sir, playing the music", " ", "enjoy the music", " "]
+		},
+		{
+			"tag": "music-stop",
+			"patterns": ["hey buddy stop the music", "stop playing the music", "stop playing it", "stop playing", "stop the music", "stop playing the song", "stop the song", "dont play the song", "dont play"],
+			"response": ["", "Done"]
+		}
+	]
+}
