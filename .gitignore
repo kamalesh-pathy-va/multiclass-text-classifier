@@ -1,1 +1,4 @@
 *.txt
+*.pickle
+*.json
+__pycache__
