@@ -44,13 +44,10 @@ with open("thechatbot.pickle", "rb") as theModelsFile:
 
 
 def classifyText(inputText):
-	"""
-	I'll add comments later
-	"""
-	theIN = [inputText]
-	prediction = model.predict(theIN)
-	predictionConfidence = model.predict_proba(theIN)
-	maxConfidence = max(predictionConfidence[0])
+	theIN = [inputText]  # The model.predict() method takes inputs as lists, list() can't be used.
+	prediction = model.predict(theIN)  # passing the input list with one element into the model.predict() method.
+	predictionConfidence = model.predict_proba(theIN)  # This line is to find the accuracy of the prediction, it gives the score for every catogory in which the highest score would be the correct prediction.
+	maxConfidence = max(predictionConfidence[0])  # This will give the maximum of all the scores.
 	if maxConfidence > 0.8:  # This if condition is to return the prediction if the accuracy is more than 80%
 	    return prediction[0]
 	else:
